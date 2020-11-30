@@ -1,0 +1,161 @@
+.containerleft 
+{
+    float: left;
+    background-image: url("./images/artyzanopizza3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    min-height: 800px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.containerleft H1 {
+    font-family: "Advent Pro";
+    font-size: 45px;
+    font-weight: 300;
+    color: #ffffff;
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: 10%;
+
+
+}
+.containerleft H2 {
+    font-family: "Assistant";
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFD885;
+    word-spacing: 10px;
+    text-align: center;
+
+
+}
+.containerleft H3 {
+    font-family: "Assistant";
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFD885;
+    word-spacing: 20px;
+    text-align: center;
+    margin-top: -3%
+}
+
+.containerleft H4 {
+    font-family: "Assistant";
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFD885;
+    word-spacing: 20px;
+    text-align: center;
+    margin-top: -3%
+}
+#overlay{
+    position: fixed; /* Sit on top of the page content */
+    display: block; 
+    width: auto; /* Full width (cover the whole page) */
+    height: auto; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+}
+.containerright 
+{
+
+    float: left;
+    width: 50%;
+    min-height: 800px;
+
+}
+
+.containerright a:hover {
+color: #AB842E;
+
+}
+
+.containerright ul{
+    margin-top: 33%;
+    font-family: "Advent Pro";
+    font-size: 40px;
+    font-weight: 500;
+    color: #0E0C5C;
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 5px;
+
+}
+.containermain
+{
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+}
+.textarea1 {
+    width: 50%;
+    min-height: 200px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    clear:both;
+
+
+    
+    }
+
+.textarea1 p {
+font-family: Advent Pro;
+color: black;
+text-align: justify;
+}
+
+.textarea1 h2 {
+    font-family: Advent Pro;
+    color:#0E0C5C;
+    text-align: justify;
+    text-align: center;
+    padding-top: 10px;
+    }
+    
+.textimage img{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    width: 25%;
+    height: 25%x;
+    border-radius: 8px;
+    margin-right: 20px;
+
+
+}
+
+.reviewbar {
+    margin: auto;
+    width: 100%;
+    background-color: grey;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    clear: both;
+    
+    }
+
+.ctabar {
+    margin: auto;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    min-height: 50px;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    
+    }
