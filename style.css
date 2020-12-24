@@ -1,13 +1,25 @@
+.social {
+
+padding-left: 15%;
+padding-right: 5%;
+padding-top: 5%;	
+	
+}
+
+.social img{
+    margin-right: 15%
+}
 .containerleft 
 {
     float: left;
-    background-image: url ("artyzanopizza3.jpg");
+    background-image: url("./images/artypizza3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    min-height: 800px;
-    border-radius: 20px;
+    min-height: 900px;
+    border-radius: 10px;
     position: relative;
+	max-width:700px;
 }
 
 .containerleft H1 {
@@ -25,7 +37,7 @@
     font-family: "Assistant";
     font-size: 30px;
     font-weight: 600;
-    color: #FFD885;
+    color: #FFFFFF;
     word-spacing: 10px;
     text-align: center;
 
@@ -35,42 +47,73 @@
     font-family: "Assistant";
     font-size: 15px;
     font-weight: 500;
-    color: #FFD885;
+    color: #FFFFFF;
     word-spacing: 20px;
     text-align: center;
-    margin-top: -3%
+    margin-top: 0%
 }
 
 .containerleft H4 {
     font-family: "Assistant";
     font-size: 20px;
     font-weight: 500;
-    color: #FFD885;
+    color: #FFFFFF;
     word-spacing: 20px;
     text-align: center;
-    margin-top: -3%
+    margin-top: 0%
 }
-#overlay{
-    position: fixed; /* Sit on top of the page content */
-    display: block; 
-    width: auto; /* Full width (cover the whole page) */
-    height: auto; 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+.containerleft H5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    text-align: center;
+    margin-top: 15%
+}
+* {
+    box-sizing: border-box;
+  }
+
+.containerleft hr{
+	margin-top:20px;
+}
+
+.containerleft ul{
+    padding-top: 5%;
+    font-family: "Advent Pro";
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 5px;
+    padding-bottom: 5%;
+  
+}
+
+.containerleft hr{
+	color: #F0E824;
+    max-width:75%;
+
+}
+
+.containerleft a:hover {
+    color: #AB842E;
+    
+    }
 
 }
 .containerright 
 {
 
     float: left;
-    width: 50%;
+    width: 45%;
     min-height: 800px;
+    margin-left: 5%;
+}  
 
-}
 
 .containerright a:hover {
 color: #AB842E;
@@ -78,84 +121,1113 @@ color: #AB842E;
 }
 
 .containerright ul{
-    margin-top: 33%;
+    padding-top: 12%;
     font-family: "Advent Pro";
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     color: #0E0C5C;
     text-align: center;
     list-style-type: none;
     word-spacing: 5px;
+  
+}
+
+.containerright hr{
+	color: #F0E824;
+    max-width:25%;
+
+}
+
+.containerright H2{
+    padding-top: 12%;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 500;
+    color: #0E0C5C;
+    text-align: center;
+    word-spacing: 5px;
+  
+}
+.containerright p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0C5C;
+    text-align: center;
+    padding-left: 5%;
 
 }
 .containermain
 {
-    margin-left: 5px;
-    margin-right: 5px;
-
+    max-width: 80%;
+	margin: auto;
 
 }
 .textarea1 {
-    width: 50%;
+    width: 100%;
     min-height: 200px;
     padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    clear:both;
-
-
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    clear: both;
     
     }
 
 .textarea1 p {
 font-family: Advent Pro;
-color: black;
+font-size: 25px;
+font-weight: 500;
+color: #0E0C5C;
 text-align: justify;
+
 }
 
 .textarea1 h2 {
-    font-family: Advent Pro;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
     color:#0E0C5C;
-    text-align: justify;
     text-align: center;
     padding-top: 10px;
-    }
     
-.textimage img{
-    float: left;
-    background-repeat: no-repeat;
-    background-size: 25%;
-    width: 25%;
-    height: 25%x;
-    border-radius: 8px;
-    margin-right: 20px;
+    }
 
+.textarea1 h3 {
+        font-family: Advent Pro;
+        font-size: 30px;
+        font-weight: 300;
+        font-style: normal;
+        color:#0E0C5C;
+        text-align: center;
+        padding-top: 0px;
+        
+        }
+.textarea1 h4 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+        color:#0E0C5C;
+        text-align: right;
+        padding-top: 0px;
+        
+        }
+    
+.imagearea {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: url("./images/bestpizzadublin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    clear: both;
 
 }
+.imagearea h2 {
+    font-family: Advent Pro;
+    font-size: 30px;
+    font-weight: 300;
+    color:#ffffff;
+    text-align: justify;
+    display:block;
+    padding-top: 100px;
+    padding-left:5%;
+    padding-right:5%;
 
+    }
+
+.orderdiv {
+        height: 300px;
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-image: url("./images/orderpizza.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        clear: both;
+    
+    }
+.orderdiv h2 {
+        font-family: Advent Pro;
+        font-size: 30px;
+        font-weight: 600;
+        color:#ffffff;
+        text-align: justify;
+        display:block;
+        padding-top: 100px;
+        padding-left:5%;
+        padding-right:5%;
+    
+        }
+.orderdiv button {
+        background-color: #4CAF50; /* Green */
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        color: white;
+        padding: 15px 32px;
+        margin-left: 5%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+.orderdiv button a:hover {
+        background-color: #0F1D26;
+        
+        }
+
+    .bookings{
+        width:100%;
+        float: right:
+        height: 300px;
+    }
+
+.bookings h2 {
+        font-family: Advent Pro;
+        font-size: 30px;
+        font-weight: 300;
+        color:#0E0C5C;
+        text-align: center;
+        }
+
+.bookings hr{
+    color:#0E0C5C;
+}
 .reviewbar {
     margin: auto;
     width: 100%;
-    background-color: grey;
+    background-color: white;
     min-height: 200px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    clear: both;
-    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    clear:both;
+  
     }
+.reviewbar h2{
+    font-family: Advent Pro;
+    font-size: 30px;
+    font-weight: 300;
+    color:#0E0C5C;
+    text-align: center; 
+}
+.divrev {
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    position: relative;
+    padding-left: 10%;
+    margin-bottom: 5px;
+
+
+}
+.checked{
+    color:#F2BE5C;
+
+}
+
+.divrev h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color:#0E0C5C;
+    text-align: center;
+}
+
+.divrev p{
+font-family: Advent Pro;
+font-size: 18px;
+color: #0E0C5C;
+text-align: center;
+}
 
 .ctabar {
     margin: auto;
     width: 100%;
-    background-color: yellow;
+    background-color: #0F1D26;
     text-align: center;
-    min-height: 50px;
+    min-height: 150px;
     padding-top: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
     padding-bottom: 5px;
+    border-radius: 5px;
     
+    }
+
+    .ctadiv p{
+    font-family: Advent Pro;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    
+
+    }
+    .ctadiv h2 {
+        font-family: Advent Pro;
+        font-size: 25px;
+        font-weight: 400;
+        color:#FFFFFF;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .ctacontainer {
+        margin: auto;
+        width: 100%;
+    }
+    .ctadiv {
+        float: left;
+        width: 30%;
+        margin: auto;
+        padding-left: 10%;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    
+    
+    }
+    .ctadiv img{
+        margin-right: 10%
+    }
+    .ctadiv address {
+        font-family:sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        font-style: normal;
+        color:#FFFFFF;
+        text-align: center;
+    }
+    .ctadiv a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        font-style: normal;
+        color:#FFFFFF;
+        text-align: center;
+    }
+
+.containerleftab 
+{
+    float: left;
+    width: 50%;
+    min-height: 900px;
+    border-radius: 10px;
+    position: relative;
+    max-width:700px;
+    margin-top: -5px;
+}
+
+.containerleftab H2{
+    padding-top: 5%;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 500;
+    color: #0E0C5C;
+    text-align: center;
+    word-spacing: 5px;
+  
+}
+.containerleftab p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0C5C;
+    text-align: center;
+    padding-left: 5%;
+
+}
+.containerrightab 
+{
+    float: left;
+    background-image: url("./images/artyzanojobs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    min-height: 800px;
+    border-radius: 10px;
+    position: relative;
+    background-position: center center;
+	max-width:700px;
+}
+
+.containerrightab H2 {
+    font-family: "Advent Pro";
+    font-size: 40px;
+    font-weight: 200;
+    color: #ffffff;
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: 25%;
+    background-color: rgba(24, 48, 63, 0.5);
+
+}
+.containerleftab h3{
+    padding-top: 5px;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 300;
+    color: #0E0C5C;
+    text-align: justify;
+    word-spacing: 5px;
+
+}
+
+.containerleftab p{
+    padding-top: 5px;
+    font-family: "Advent Pro";
+    font-size: 25px;
+    font-weight: 300;
+    color: #0E0C5C;
+    text-align: justify;
+    word-spacing: 5px;
+    margin-right: 5%;
+    margin-left: -5%;
+
+  
+}
+
+.reviewbarab {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(24, 48, 63, 1);
+    min-height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    clear:both;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  
+    }
+      
+      .form-inline {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-left: 30px;
+        color: white;
+        font-family: Advent Pro;
+      }
+      
+     .form-inline label {
+        padding-left: 5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .form-inline button {
+        padding: 10px 20px;
+        background-color: white;
+        border: 1px solid #0E0C5C;
+        color: #0E0C5C;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 10%;
+      }
+
+      .form-inline button:hover {
+        background-color: rgba(237, 242, 106, 1);
+    
+      }
+      .form-inline input {
+        vertical-align: middle;
+        width: 20%;
+        margin: 5px 10px 5px 0;
+        padding: 10px 20px 10px 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .containerleftab hr{
+          max-width: 75%;
+          color: #0E0C5C;
+      }
+
+      .imageareaab {
+        height: 300px;
+        width: 100%;
+        border-radius: 8px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        background-image: url("./images/menu.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        clear: both;
+    
+    }
+
+    .imageareaab h2 {
+        font-family: Advent Pro;
+        font-size: 30px;
+        font-weight: 600;
+        color:#0E0C5C);
+        text-align: center;
+        display:block;
+        padding-top: 100px;
+        background-color: rgba(237, 242, 106, 0.5);
+    
+        }
+    
+        .imageareaab a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        font-style: normal;
+        color: #0E0C5C;
+        text-align: center;
+    
+        }
+
+        .tophero{
+            background-image: url("./images/menuhero.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            min-height: 900px;
+            border-radius: 10px;
+            position: relative;
+
+        }
+ .containerleftmenu
+{
+    float: left;
+    width: 50%;
+    min-height: 900px;
+    border-radius: 10px;
+    position: relative;
+    max-width:700px;
+    background-color: rgba(24, 48, 63, 0.5);
+}
+
+.containerleftmenu H1 {
+    font-family: "Advent Pro";
+    font-size: 45px;
+    font-weight: 300;
+    color: #ffffff;
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: 10%;
+
+
+}
+.containerleftmenu H2 {
+    font-family: "Assistant";
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+    word-spacing: 10px;
+    text-align: center;
+
+
+}
+.containerleftmenu H3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFFFF;
+    word-spacing: 20px;
+    text-align: center;
+    margin-top: 0%
+}
+
+.containerleftmenu H4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+    word-spacing: 20px;
+    text-align: center;
+    margin-top: 30%
+}
+
+.containerleftmenu H5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #FFFFFF;
+    word-spacing: 5px;
+    text-align: center;
+    margin-top: 15%
+}
+
+
+.containerleftmenu hr{
+    margin-top:20px;
+    max-width: 50%;
+}
+
+.containerleftmenu ul{
+    padding-top: 5%;
+    font-family: "Advent Pro";
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 5px;
+    padding-bottom: 5%;
+  
+}
+
+.arthero{
+    background-image: url("./images/arthero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 900px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.divart {
+        float: left;
+        width: 25%;
+        min-height: 300px;
+        min-width: 200px;
+        position: relative;
+        padding-left: 10%;
+        margin-bottom: 5px;
+        margin-right: 5%;
+        margin-top: 10px;
+        background-size: cover;
+    
+}
+.divart button {
+    background-color: #701018;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    margin-left: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    left: 0%;
+    right:15%;
+    min-width: 200px;
+
+  }
+
+.divart button a:hover {
+    background-color:#193140;
+    
+    }
+
+.divart img{
+      margin-right: 0%;
+      max-width: 200px;
+      max-height: 300px;
+      position: center center;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+
+      }
+      
+      img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+    }
+
+.reviewbarart {
+        margin: auto;
+        width: 100%;
+        background-color: white;
+        min-height: 200px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        clear:both;
+      
+        }
+.reviewbarart H2 {
+    font-family: "Advent Pro";
+    font-size: 35px;
+    font-weight: 500;
+    color: #701018;
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: -5%
+}
+
+.reviewbarart H3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0E0C5C;
+    word-spacing: 5px;
+    text-align: center;
+    margin-top: 0%
+}
+
+.reviewbarart H4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0C5C;
+    word-spacing: 0px;
+    text-align: center;
+    margin-top: 2%
+}
+
+.artbreak {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+    position: relative;
+    clear:both;
+    padding-top: 10px;
+
+}
+
+.artbreak hr {
+color: #0E0C5C;
+max-width: 100%;
+
+}
+.artbreak H2 {
+    font-family: "Advent Pro";
+    font-size: 35px;
+    font-weight: 500;
+    color: #701018;
+    text-align: center;
+    margin-top: 5%
+}
+
+.containerrightart H2{
+    padding-top: 5%;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 500;
+    color: #0E0C5C;
+    text-align: center;
+    word-spacing: 5px;
+  
+}
+.containerrightart p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0C5C;
+    text-align: justify;
+    
+}
+.containerleftart
+{
+    float: left;
+    background-image: url("./images/angelicadivine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    min-height: 800px;
+    border-radius: 10px;
+    position: relative;
+    background-position: center center;
+    max-width:700px;
+    clear: both;
+}
+
+.containerleftart H2 {
+    font-family: "Advent Pro";
+    font-size: 40px;
+    font-weight: 200;
+    color: #ffffff;
+    word-spacing: 10px;
+    text-align: center;
+    margin-top: 75%;
+    background-color: rgba(112, 16, 24, 0.5);
+
+}
+.containerleftart h3{
+    padding-top: 5px;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 300;
+    color: #0E0C5C;
+    text-align: justify;
+    word-spacing: 5px;
+
+}
+
+.containerleftart p{
+    padding-top: 5px;
+    font-family: "Advent Pro";
+    font-size: 25px;
+    font-weight: 300;
+    color: #0E0C5C;
+    text-align: justify;
+    word-spacing: 5px;
+    margin-right: 5%;
+    margin-left: -5%;
+
+  
+}
+.containerrightart 
+{
+    float: left;
+    width: 45%;
+    min-height: 900px;
+    border-radius: 10px;
+    position: relative;
+    max-width:700px;
+    margin-top: -5px;
+    margin-left: 5%;
+    padding-right: 10px;
+}
+
+.eventhero{
+    background-image: url("./images/bestpizzadublin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 900px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.containerleftevent
+{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    border-radius: 10px;
+    position: relative;
+    background-position: center center;
+    max-width:700px;
+    clear: both;
+}
+
+.containerrightevent 
+{
+    float: left;
+    width: 45%;
+    min-height: 300px;
+    border-radius: 10px;
+    position: relative;
+    max-width:700px;
+    margin-top: -5px;
+    margin-left: 5%;
+    padding-right: 10px;
+}
+
+.containerrightevent H2{
+    padding-top: 5%;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 500;
+    color: #0E0C5C;
+    text-align: center;
+    word-spacing: 5px;
+  
+}
+.containerrightevent p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0C5C;
+    text-align: justify;
+    
+}
+
+.eventhero2{
+    background-image: url("./images/datenight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    border-radius: 10px;
+    position: relative;
+    background-position: center center;
+    margin-top: -10px;
+
+}
+
+.containerleftevent2
+{
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    border-radius: 10px;
+    position: relative;
+    max-width:700px;
+    background-color: rgba(112, 16, 24, 0.7);
+
+}
+
+.containerleftevent2 H2{
+    padding-top: 5%;
+    font-family: "Advent Pro";
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+  
+}
+
+.containerleftevent2 p{
+    padding: 5%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+  
+}
+.form-inline2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    font-family: Advent Pro;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  }
+
+ 
+  .form-inline2 label {
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .form-inline2 button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #0E0C5C;
+    color: #0E0C5C;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10%;
+  }
+
+  .form-inline2 button:hover {
+    background-color: rgba(237, 242, 106, 1);
+
+  }
+  .form-inline2 input {
+    vertical-align: middle;
+    width: 20%;
+    margin: 5px 10px 5px 0;
+    padding: 10px 20px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+
+
+
+
+@media only screen and (min-width: 1700px){
+    .containermain {
+        max-width: 1400px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .containerleftevent{
+        float: none;
+        width: 100%;
+        margin: auto:
+    }
+    .containerrightevent{
+        float:none;
+        width: 100%;
+
+    }
+}
+      @media only screen and (max-width: 770px) {
+
+        .containerleft { 
+    
+          float: left;
+            width: 50%;
+            min-height: 900px;
+        }
+
+        .containerright { 
+    
+            float: left;
+              width: 50%;
+          }
+          .social img{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .containermain
+{
+    max-width: 100%;
+	margin: auto;
+}
+.divrev {
+    float: none;
+    width: 100%;
+ }
+ .ctadiv {
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+
+.eventhero{
+    float: none;
+    width: 100%;
+}
+.eventhero2 {
+    float: none;
+    width: 100%;
+}
+.containerleftevent{
+    float: none;
+    width: 100%;
+    clear: both;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.containerleftevent iframe{
+    width: 100%;
+}
+.containerrightevent{
+    float: none;
+    width: 100%;
+    clear: both;
+    padding-right: 5%;
+}
+
+      }
+    @media only screen and (max-width: 420px) {
+
+        .containerleft { 
+    
+          float: none;
+            width: 100%;
+            min-height: 800px;
+        }
+
+        .containerright { 
+    
+            float: none;
+              width: 100%;
+          }
+          .social img{
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .containermain
+{
+    max-width: 100%;
+	margin: auto;
+}
+.divrev {
+    float: none;
+    width: 100%;
+ }
+ .ctadiv {
+    float: none;
+    width: 100%;
+    margin: auto;
+}
+.containerleftab { 
+    
+    float: none;
+      width: 100%;
+      min-height: 800px;
+  }
+  .containerrightab { 
+    
+    float: none;
+      width: 100%;
+      margin-left: 10px:
+  }
+
+  .reviewbar { 
+    
+    float: none;
+      width: 100%;
+  }
+  .reviewbarab { 
+    
+    float: none;
+      width: 100%;
+  }
+  .containerleftmenu { 
+    
+    float: none;
+      width: 100%;
+      min-height: 800px;
+  }
+  .divart{
+      float: none;
+      margin-bottom: 5px;
+  }
+  .containerrightart{
+      float: none;
+      width: 100%;
+      padding-right: 15px;
+  }
+  .containerleftart{
+    float: none;
+    width: 100%;
+    margin-top: 5%;
+}
+.artbreak{
+    margin-bottom: -10px;
+}
+
+.containerleftart h2{
+    margin-top: 75%;
+}
+.reviewbarart{
+    margin-bottom: 0%;
+}
+.eventhero{
+    float: none;
+    width: 100%;
+}
+.eventhero2 {
+    float: none;
+    width: 100%;
+}
+.containerleftevent{
+    float: none;
+    width: 100%;
+    clear: both;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.containerleftevent iframe{
+    width: 100%;
+}
+.containerrightevent{
+    float: none;
+    width: 100%;
+    clear: both;
+    padding-right: 5%;
+}
+.containerleftevent2{
+    float: none;
+    width: 100%;
+    clear: both;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+      }
     }
