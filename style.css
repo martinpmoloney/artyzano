@@ -12,7 +12,7 @@ padding-top: 5%;
 .containerleft 
 {
     float: left;
-    background-image: url("./images/artypizza3.jpg");
+    background-image: url("./artypizza3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -221,7 +221,7 @@ text-align: justify;
     border-radius: 8px;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-image: url("./images/bestpizzadublin.jpg");
+    background-image: url("./bestpizzadublin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -241,13 +241,27 @@ text-align: justify;
 
     }
 
+imagearea a: {
+        font-family: Advent Pro;
+        font-size: 30px;
+        font-weight: 300;
+        color:#ffffff;
+        text-align: justify;
+        display:block;
+        padding-top: 100px;
+        padding-left:5%;
+        padding-right:5%;
+        text-decoration: none;
+    
+        }
+
 .orderdiv {
         height: 300px;
         width: 100%;
         border-radius: 8px;
         margin-top: 5px;
         margin-bottom: 5px;
-        background-image: url("./images/orderpizza.jpg");
+        background-image: url("./orderpizza.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -447,7 +461,7 @@ text-align: center;
 .containerrightab 
 {
     float: left;
-    background-image: url("./images/artyzanojobs.jpg");
+    background-image: url("./artyzanojobs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -557,7 +571,7 @@ text-align: center;
         border-radius: 8px;
         margin-top: 2px;
         margin-bottom: 5px;
-        background-image: url("./images/menu.jpg");
+        background-image: url("./menu.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -588,7 +602,7 @@ text-align: center;
         }
 
         .tophero{
-            background-image: url("./images/menuhero.jpg");
+            background-image: url("./menuhero.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
@@ -679,7 +693,7 @@ text-align: center;
 }
 
 .arthero{
-    background-image: url("./images/arthero.jpg");
+    background-image: url("./arthero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -829,7 +843,7 @@ max-width: 100%;
 .containerleftart
 {
     float: left;
-    background-image: url("./images/angelicadivine.jpg");
+    background-image: url("./angelicadivine.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -890,7 +904,7 @@ max-width: 100%;
 }
 
 .eventhero{
-    background-image: url("./images/bestpizzadublin.jpg");
+    background-image: url("./bestpizzadublin.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -944,7 +958,7 @@ max-width: 100%;
 }
 
 .eventhero2{
-    background-image: url("./images/datenight.jpg");
+    background-image: url("./datenight.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
