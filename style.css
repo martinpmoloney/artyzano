@@ -19,7 +19,7 @@ padding-top: 5%;
     min-height: 900px;
     border-radius: 10px;
     position: relative;
-	max-width:700px;
+	max-width: 700px;
 }
 
 .containerleft H1 {
@@ -110,7 +110,7 @@ padding-top: 5%;
 {
     float: left;
     width: 45%;
-    min-height: 800px;
+    min-height: 900px;
     margin-left: 50%;
 }  
 
@@ -136,7 +136,7 @@ color: #AB842E;
 }
 
 .containerright hr{
-	color: #F0E824;
+	color: #0E0C5C;
     max-width:25%;
 
 }
@@ -697,7 +697,7 @@ text-align: center;
 }
 
 .arthero{
-    background-image: url("./arthero.jpg");
+    background-image: url("./arthero2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
