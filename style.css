@@ -104,17 +104,21 @@ padding-top: 5%;
     
     }
 
+.containerleft a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 }
 .containerright 
 {
-
     float: left;
     width: 45%;
     min-height: 800px;
-    margin-left: 5%;
+    margin-left: 50%;
 }  
-
-
+.containerright a{
+    text-decoration: none;
+}
 .containerright a:hover {
 color: #AB842E;
 
@@ -596,8 +600,9 @@ text-align: center;
         font-size: 15px;
         font-weight: 100;
         font-style: normal;
-        color: #0E0C5C;
+        color: #FFFFFF;
         text-align: center;
+        text-decoration: none;
     
         }
 
@@ -736,9 +741,9 @@ text-align: center;
   }
 
 .divart button a:hover {
-    background-color:#193140;
-    
-    }
+    color:yellow;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
 
 .divart img{
       margin-right: 0%;
@@ -889,6 +894,11 @@ max-width: 100%;
     margin-left: -5%;
 
   
+}
+
+.containerleftmenu a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .containerrightart 
 {
@@ -1165,6 +1175,11 @@ max-width: 100%;
       width: 100%;
       min-height: 800px;
   }
+
+  .containerleft a{
+    text-decoration: none;
+    color: #ffffff;
+}
   .containerrightab { 
     
     float: none;
