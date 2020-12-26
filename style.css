@@ -50,7 +50,7 @@ padding-top: 5%;
     color: #FFFFFF;
     word-spacing: 20px;
     text-align: center;
-    margin-top: 0%
+    margin-top: 0%;
 }
 
 .containerleft H4 {
@@ -60,7 +60,7 @@ padding-top: 5%;
     color: #FFFFFF;
     word-spacing: 20px;
     text-align: center;
-    margin-top: 0%
+    margin-top: 0%;
 }
 
 .containerleft H5 {
@@ -70,14 +70,16 @@ padding-top: 5%;
     color: #FFFFFF;
     word-spacing: 5px;
     text-align: center;
-    margin-top: 15%
+    margin-top: 15%;
 }
 * {
     box-sizing: border-box;
   }
 
 .containerleft hr{
-	margin-top:20px;
+    margin-top:20px;
+    color: white;
+    max-width:75%;
 }
 
 .containerleft ul{
@@ -91,12 +93,6 @@ padding-top: 5%;
     word-spacing: 5px;
     padding-bottom: 5%;
   
-}
-
-.containerleft hr{
-	color: #F0E824;
-    max-width:75%;
-
 }
 
 .containerleft a:hover {
@@ -116,9 +112,11 @@ padding-top: 5%;
     min-height: 800px;
     margin-left: 50%;
 }  
+
 .containerright a{
     text-decoration: none;
 }
+
 .containerright a:hover {
 color: #AB842E;
 
